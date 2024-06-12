@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Food Paradise</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>About Us</h2>
+        <p>Welcome to Food Paradise, your number one source for all things delicious. We're dedicated to providing you the very best of recipes, with an emphasis on simplicity, taste, and nutrition.</p>
+    </section>
+
+    <section id="recipes">
+        <h2>Our Recipes</h2>
+        <div class="recipe">
+            <h3>Spaghetti Carbonara</h3>
+            <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+            <button onclick="alert('Spaghetti Carbonara Recipe: \n- Spaghetti\n- Eggs\n- Cheese\n- Pancetta\n- Pepper')">View Recipe</button>
+        </div>
+        <div class="recipe">
+            <h3>Chicken Curry</h3>
+            <p>A flavorful dish made with chicken, spices, onions, and tomatoes.</p>
+            <button onclick="alert('Chicken Curry Recipe: \n- Chicken\n- Spices\n- Onions\n- Tomatoes')">View Recipe</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Food Paradise</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
